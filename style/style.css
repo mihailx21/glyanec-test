@@ -3,11 +3,7 @@
 body{
     margin: 0;
     padding: 0;
-}
-
-.proxima{
     font-family: 'Proxima Nova Rg';
-    font-weight: normal;
     font-style: normal;
 }
 
@@ -26,8 +22,6 @@ body{
     align-items: center;
 }
 .socials .text{
-    font-family: 'Proxima Nova';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 125%;
@@ -61,8 +55,6 @@ body{
 }
 
 .telephones #phones-numbers {
-    font-family: 'Proxima Nova';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 125%;
@@ -71,8 +63,6 @@ body{
 }
 
 .telephones #phones-numbers option{
-    font-family: 'Proxima Nova';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 125%;
@@ -88,8 +78,6 @@ body{
     color: #1E2E36;
 }
 .up-header-right{
-    font-family: 'Proxima Nova Rg';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 125%;
@@ -115,10 +103,9 @@ body{
     align-items: center;
 }
 .middle-header select {
+    font-family: 'Proxima Nova Rg';
     padding: 0;
     margin: 0;
-    font-family: 'Proxima Nova';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 125%;
@@ -141,8 +128,6 @@ body{
 }
 
 .cart-text{
-    font-family: 'Proxima Nova';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 125%;
@@ -160,8 +145,6 @@ body{
     background: #44C697;
     border-radius: 3px;
     border: none;
-    font-family: 'Proxima Nova';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 125%;
@@ -181,7 +164,6 @@ body{
     text-align: center;
 }
 .card-title{
-    font-family: 'Proxima Nova';
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -189,8 +171,6 @@ body{
     color: #1E2E36;
 }
 .card-second-title{
-    font-family: 'Proxima Nova';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 125%;
@@ -198,8 +178,6 @@ body{
     margin-top: 50px;
 }
 .card-text{
-    font-family: 'Proxima Nova';
-    font-style: normal;
     font-weight: 400;
     font-size: 36px;
     line-height: 125%;
@@ -215,8 +193,6 @@ body{
     background: #44C697;
     border-radius: 3px;
     border: none;
-    font-family: 'Proxima Nova';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 125%;
@@ -228,8 +204,6 @@ body{
 
 .card-pages{
     margin-top: 50px;
-    font-family: 'Proxima Nova';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 125%;
@@ -237,8 +211,6 @@ body{
     color: #1E2E36;
 }
 .card-pages span{
-    font-family: 'Proxima Nova';
-    font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 125%;
@@ -254,8 +226,6 @@ body{
 
 /* headers styling */
 h1{
-    font-family: 'Proxima Nova';
-    font-style: normal;
     font-weight: 700;
     font-size: 48px;
     line-height: 125%;
@@ -298,8 +268,6 @@ h1 span{
 }
 
 .advantage-title{
-    font-family: 'Proxima Nova';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 125%;
@@ -315,8 +283,6 @@ h1 span{
 }
 
 .advantage-text{
-    font-family: 'Proxima Nova';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 125%;
@@ -324,7 +290,7 @@ h1 span{
     margin-top: 15px;
     transition:all 1s ease;
     -webkit-transition:all 1s ease;
-    -moz-transition:all 1s ease;
+    -moz-transition:all 0.3s ease;
     overflow: hidden;
     height:0;
 }
@@ -355,8 +321,6 @@ h1 span{
     border-bottom: 3px solid #44C697;
 }
 .catalog-icon-text{
-    font-family: 'Proxima Nova';
-    font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 125%;
@@ -380,8 +344,6 @@ h1 span{
 .catalog-text{
     padding: 15px;
     justify-content: space-between;
-    font-family: 'Proxima Nova Rg';
-    font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 125%;
@@ -398,8 +360,6 @@ h1 span{
     padding: 14px 46px;
     background: #44C697;
     border-radius: 3px;
-    font-family: 'Proxima Nova Rg';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 125%;
@@ -427,8 +387,6 @@ h1 span{
     border-radius: 3px;
 }
 .about-us-text-def{
-    font-family: 'Proxima Nova Rg';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 125%;
@@ -436,8 +394,6 @@ h1 span{
     color: #44C697;
 }
 .about-us-text{
-    font-family: 'Proxima Nova Rg';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 125%;
@@ -468,8 +424,6 @@ h1 span{
 }
 
 .form-title{
-    font-family: 'Proxima Nova Rg';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 125%;
@@ -477,8 +431,6 @@ h1 span{
 }
 
 .form-input-name{
-    font-family: 'Proxima Nova Rg';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 125%;
@@ -491,8 +443,6 @@ h1 span{
 }
 
 .form-input-tel{
-    font-family: 'Proxima Nova Rg';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 125%;
@@ -511,8 +461,6 @@ form button{
     background-color: #44C697;
     border-radius: 3px;
     border: none;
-    font-family: 'Proxima Nova Rg';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 125%;
@@ -523,8 +471,6 @@ form button{
 }
 
 .form-text{
-    font-family: 'Proxima Nova Rg';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 125%;
@@ -558,8 +504,6 @@ footer{
 }
 
 .footer-container-text{
-    font-family: 'Proxima Nova Rg';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 125%;
@@ -588,8 +532,6 @@ footer{
 }
 
 .footer-container-list ul li a{
-    font-family: 'Proxima Nova Rg';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 125%;
@@ -613,8 +555,6 @@ footer{
 }
 
 .footer-map-pin-text{
-    font-family: 'Proxima Nova Rg';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 125%;
@@ -624,8 +564,6 @@ footer{
 }
 
 .footer-work-days{
-    font-family: 'Proxima Nova Rg';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 125%;
@@ -634,8 +572,6 @@ footer{
 }
 
 .footer-tel-numbers{
-    font-family: 'Proxima Nova Rg';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 125%;
@@ -646,8 +582,6 @@ footer{
 
 .footer-socials-text{
     margin-bottom: 5px;
-    font-family: 'Proxima Nova';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 125%;
@@ -667,8 +601,6 @@ footer{
     justify-content: space-between;
     padding-right: 58px;
     margin-bottom: 15px;
-    font-family: 'Proxima Nova Rg';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 120%;
