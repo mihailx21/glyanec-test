@@ -288,8 +288,8 @@ h1 span{
     line-height: 125%;
     color: #FFFFFF;
     margin-top: 15px;
-    transition:all 1s ease;
-    -webkit-transition:all 1s ease;
+    transition:all 0.3s ease;
+    -webkit-transition:all 0.3s ease;
     -moz-transition:all 0.3s ease;
     overflow: hidden;
     height:0;
@@ -331,10 +331,53 @@ h1 span{
 }
 /* main catalog styling */
 .catalog{
-    margin: 0 51px 100px 51px;
+    margin: 0 51px 0px 51px;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+}
+
+.catalog-one-element{
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.catalog-label-new{
+    position: absolute;
+    background-color: #1E2E36;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 125%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 5px 15px;
+    margin-top: 10px;
+}
+
+.catalog-label-sale{
+    position: absolute;
+    background-color: #FF1B1B;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 125%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 5px 15px;
+    margin-top: 53px;
+}
+
+.catalog-one-element:hover{
+    transform: translate(0px, -25px);
+    transition:all 0.5s ease;
+    -webkit-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+}
+
+.catalog-one-element:hover .catalog-text{
+    color: #fff;
+    background-color: #44C697;
 }
 
 .catalog-image{
@@ -350,6 +393,34 @@ h1 span{
     text-align: center;
     text-transform: uppercase;
     color: #1E2E36;
+}
+
+.sale-price{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 125%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FF1B1B;
+}
+
+.sale-price span{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 125%;
+    text-align: center;
+    text-decoration-line: line-through;
+    text-transform: uppercase;
+    color: #BCBDBB;
+    margin-left: 10px;
+}
+
+.catalog-one-element:hover .sale-price{
+    color: #fff;
+}
+
+.catalog-one-element:hover .sale-price span{
+    color: #fff;
 }
 
 .catalog-button{
